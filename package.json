@@ -1,0 +1,48 @@
+{
+  "name": "reader",
+  "version": "1.0.0",
+  "description": "vue project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imantong/reader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imantong/reader/issues"
+  },
+  "homepage": "https://github.com/imantong/reader#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.1.2",
+    "babel-core": "^6.26.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.22.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "^1.1.1",
+    "vue-loader": "^15.3.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  }
+}
